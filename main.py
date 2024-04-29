@@ -14,7 +14,6 @@ with open("books/frankenstein.txt") as f:
     # print(dict_count.items())
     
     # Sort the dictionary by count
-    sorted_dict = []
     sorted_dict = sorted(dict_count.items(), key=sort_on, reverse=True)
     
     # Print the sorted dictionary
